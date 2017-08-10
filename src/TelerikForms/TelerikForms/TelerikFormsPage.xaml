@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:TelerikForms" 
+    x:Class="TelerikForms.TelerikFormsPage" Title = "Forms" >
+    <TableView Intent="Settings">
+        <TableView.Root>
+            <TableSection Title="About Me">
+                <TextCell Text="Profile" TextColor="Black" />
+                <TextCell Text="Favorite Foods" TextColor="Black" />
+            </TableSection>
+            <TableSection Title="App Settings">
+                <SwitchCell Text="Light/Dark Mode" />
+                <TextCell Text="About" TextColor="Black" />
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="15,0,15,0">
+                        <Label Text="Upgrade" VerticalOptions="Center" HorizontalOptions="StartAndExpand" />
+                        <Button Text="Do It" VerticalOptions="Center" HorizontalOptions="End" />
+                    </StackLayout>
+                </ViewCell>
+            </TableSection>
+        </TableView.Root>
+    </TableView>
+</ContentPage>
