@@ -118,6 +118,10 @@
     <Compile Include="DemoTableViewController.designer.cs">
       <DependentUpon>DemoTableViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="SwitchTableViewCell.cs" />
+    <Compile Include="SwitchTableViewCell.designer.cs">
+      <DependentUpon>SwitchTableViewCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
